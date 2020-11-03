@@ -221,23 +221,65 @@ ul
    
 }
 
-.contact-info .fa
-{
-    color: #0fcc19;
-    
+/* Contact */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(5, 72, 91);  
+  
 }
 
-.contact-info .fa-facebook-square
-{
-    padding: 10px;
-    font-weight: bold;
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.contact h1  {
+    font-size: 3em;
+    text-align: center;
+    color: black;
+    font-family: 'Lobster', cursive;
+
+}
+
+.contact p {
+    font-size: 1.2em;
+    text-align: center;
+    color: black;
+    font-family: 'Lobster', cursive;
+
 }
 
 
-#footer
-{
-    background: #333;
-    color: #fff;
+#contact a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#contact a:hover {
+    color: chartreuse;
+}
+
+#contact li {
+    list-style: none;
+    float: left;
     padding: 12px;
+    font-size: 1.2em;
+    transition: transform 0.3s ease-out;
 }
 
+#contact li:hover {
+    transform: translateY(1px);
+  }
+
+footer {
+    color: white;
+}
